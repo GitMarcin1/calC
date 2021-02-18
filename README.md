@@ -2,7 +2,7 @@
 
 Celem projektu jest stworzyć kalkulator operujący na liczbach o wielkości do 32768 bitów.Obsługiwać on będzie operacje dodawania, odejmowania, mnożenia oraz dzielenia całkowitego\
 z resztą. Program pobiera z plików dwie duże liczby w postaci stringów, które następnie dzielone są na mniejsze liczby, zamieniane ze stringów w typ int, i częściami\
-zapisywane od tyłu w tablicach. Program uruchamiany jest w konsoli, po uruchomieniu, ze standardowego wejścia wczytana zostanie przy pomocy odpowiedniej litery (S−sumowanie,\ R−odejmowanie, M−mnozenie, D−dzielenie) operacja, która ma zostać wykonana, następnie z plików pobrane zostaną dwie liczby, na których dana operacja ma zostać wykonana.\ Wypisywanie wyniku zarówno na standardowe wyjściejak i do pliku.Projekt podzielony jest na dwa pliki: main.c i bignum.h. Struktura pliku bignum.h \
+zapisywane od tyłu w tablicach. Program uruchamiany jest w konsoli, po uruchomieniu, ze standardowego wejścia wczytana zostanie przy pomocy odpowiedniej litery (S−sumowanie, R−odejmowanie, M−mnozenie, D−dzielenie) operacja, która ma zostać wykonana, następnie z plików pobrane zostaną dwie liczby, na których dana operacja ma zostać wykonana.\ Wypisywanie wyniku zarówno na standardowe wyjściejak i do pliku.Projekt podzielony jest na dwa pliki: main.c i bignum.h. Struktura pliku bignum.h \
 int a[1100], b[1100], p[1100], k[1100], s[1100], r[1100];\
 long long w[2200],\
 a, b - dane liczby\
