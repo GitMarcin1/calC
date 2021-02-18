@@ -369,7 +369,7 @@ void Save()
         {
             int g=0;
             g=w[i]+1;
-            while(g<base)
+            while(g<base/10)
             {
                 fprintf(fp3,"0");
                 g=g*10;
